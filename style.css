@@ -125,6 +125,31 @@ body {
     text-align: center;
 }
 
+.quote {
+    background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+
+    padding: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p, .quote span {
+    width: 770px;
+}
+
+.quote span{
+    font-style: normal;
+    font-weight: 900;
+    text-align: right;
+}
+
 .banner button {
     border-color: #Ffffff;
     color: #F9FaF8;
