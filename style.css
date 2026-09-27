@@ -62,7 +62,7 @@ body {
     font-size: 48px;
 }
 
-.message p {
+.message>p {
     margin-top: -28px;
     font-weight: 300;
     font-size: 18px;
@@ -82,7 +82,7 @@ body {
     background: #3882F6;
 }
 
-button {
+.welcome button {
     border: #3882F6;
     border-radius: 8px;
 
@@ -90,4 +90,38 @@ button {
     width: 120px;
     font-weight: 800;
     color: #F9FaF8;
+}
+
+.banner button {
+    border-color: #Ffffff;
+    color: #F9FaF8;
+    border-width: 2px;
+    border-radius: 6px;
+    font-weight: 800;
+
+    height: 32px;
+    width: 140px;
+    align-self: center;
+    margin-right: 90px;
+    margin-left: auto;
+}
+
+.banner {
+    margin:130px;
+    border-radius: 6px;
+    height: 120px;
+
+    display: flex;
+}
+
+.banner .text {
+    color: #F9FaF8;
+    align-self: center;
+    
+    margin-left: 70px;
+}
+
+.text p {
+    font-weight: lighter;
+    margin-top: -20px;
 }
