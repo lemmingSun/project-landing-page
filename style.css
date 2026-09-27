@@ -13,6 +13,8 @@ body {
     flex-direction: column;
     color: #F9FaF8;
     justify-content: center;
+
+    height: 540px;
 }
 
 .header_top {
