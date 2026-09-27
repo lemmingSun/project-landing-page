@@ -1,0 +1,1 @@
+A project landing page from scratch beside The Odin Project.
