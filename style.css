@@ -7,14 +7,21 @@ body {
 .header, .footer {
     background: #1F2937;
     display: flex;
+    color: #F9FaF8;
+
+    justify-content: center;
 }
 
 .header {
     flex-direction: column;
-    color: #F9FaF8;
-    justify-content: center;
 
     height: 540px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .header_top {
@@ -183,3 +190,4 @@ body {
     font-weight: lighter;
     margin-top: -20px;
 }
+
