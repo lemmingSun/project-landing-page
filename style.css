@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header, .footer {
+    background: #1F2937;
+    display: flex;
+}
+
+.header {
+    flex-direction: column;
+    color: #F9FaF8;
+    justify-content: center;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+
+    padding-right: 418px;
+    margin: auto;
+}
+
+.header_menu {
+        list-style: none;
+        display: flex;
+        align-self: flex-end;
+        margin-right: 82px;
+
+        gap: 12px;
+}
+
+.header_menu > li > a, .message p{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.welcome {
+    display: flex;
+    margin: auto;
+
+    
+    justify-content: space-between;
+}
+
+.message {
+    width: 460px;
+}
+
+.message h1{
+    font-size: 48px;
+}
+
+.message p {
+    margin-top: -28px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.placeholder    {
+    width: 500px;
+    height: 260px;
+    background: #778899;
+    align-content: center;
+    text-align: center;
+
+    margin: 40px;
+}
+
+.banner , button {
+    background: #3882F6;
+}
+
+button {
+    border: #3882F6;
+    border-radius: 8px;
+
+    height: 35px;
+    width: 120px;
+    font-weight: 800;
+    color: #F9FaF8;
+}
